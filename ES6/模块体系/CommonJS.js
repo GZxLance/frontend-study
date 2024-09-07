@@ -1,6 +1,6 @@
 const path = require('path')
 var json = {
-    path: path.resolve(__dirname),
+  path: path.resolve(__dirname)
 }
-// console.log(json)
+console.log(json)
 module.export = json
