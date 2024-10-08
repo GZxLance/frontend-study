@@ -33,10 +33,10 @@
     <!-- <DataFetcher /> -->
     <!-- <CardParent /> -->
     <!-- <LoginForm /> -->
-    <!-- <ProductList /> -->
+    <ProductList />
     <!-- <MySpeace /> -->
     <!-- <MyBlog /> -->
-    <ClassList />
+    <!-- <ClassList /> -->
   </div>
 </template>
 
@@ -45,11 +45,11 @@
 // import UserForm from './components/UserForm.vue';
 // import CardParent from './components/CardParent.vue';
 // import DataFetcher from './components/DataFetcher.vue';
-// import LoginForm from './components/LoginForm.vue';
-import ClassList from './components/ClassList.vue';
-// import MyBlog from './components/MyBlog.vue';
+import LoginForm from './components/LoginForm.vue';
+// import ClassList from './components/ClassList.vue';
+import MyBlog from './components/MyBlog.vue';
 // import MySpeace from './components/MySpeace.vue';
-// import ProductList from './components/ProductList.vue';
+import ProductList from './components/ProductList.vue';
 // import SendEmail from './components/SendEmail.vue';
 // import UserFormParent from './components/UserFormParent.vue';
 // import UserProfileParent from './components/UserProfileParent.vue';
