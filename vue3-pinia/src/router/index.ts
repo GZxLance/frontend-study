@@ -1,8 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 
 import Counter from "../views/Counter.vue";
-import Todo from "../views/Todo.vue";
-import Account from "../views/Account.vue";
 
 const routes = [
     {
@@ -23,7 +21,17 @@ const routes = [
     {
         path: "/account",
         name: "Account",
-        component: Account,
+        component: () => import("../views/Account.vue"),
+    },
+    {
+        path: "/profile",
+        name: "Profile",
+        component: () => import("../views/profile.vue"),
+    },
+    {
+        path: "/login",
+        name: "Login",
+        component: () => import("../views/Login.vue"),
     },
 ];
 

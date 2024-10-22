@@ -12,12 +12,15 @@
       </div>
       <h3>交易记录</h3>
       <table>
-        <tr>
-          <th>描述</th>
-          <th>金额</th>
-          <th>类型</th>
-          <th>操作</th>
+        <thead>
+          <tr>
+            <th>描述</th>
+            <th>金额</th>
+           <th>类型</th>
+           <th>操作</th>
         </tr>
+      </thead>
+        
         <tr v-for="transaction in accountStore.transactions" :key="transaction.id">
           <td>{{ transaction.description }}</td>
           <td>{{ transaction.amount }}</td>
